@@ -19,7 +19,7 @@ import org.bson.Document;
 
 
 @ApplicationScoped
-public class CatalogService {
+public class MongoCatalogService implements CatalogService {
 
     @Inject
     private MongoClient mc;
@@ -29,7 +29,7 @@ public class CatalogService {
 
     private MongoCollection<Document> productCollection;
 
-	public CatalogService() {
+	public MongoCatalogService() {
 	}
 
 	public List<Product> getProducts() {
