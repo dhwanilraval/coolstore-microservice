@@ -109,14 +109,14 @@ public class MongoCatalogService implements CatalogService {
 
     private static List<Product> DEFAULT_PRODUCT_LIST = new ArrayList<>();
     static {
-        DEFAULT_PRODUCT_LIST.add(new Product("329299", "Premium Laptop - Developer", "Provides a large display and is physically larger than a Standard Laptop. Includes 1 power adapter. Various peripherals available at an additional cost.", 870));
-        DEFAULT_PRODUCT_LIST.add(new Product("329199", "Create VPN Access", "A virtual private network also known as a VPN is a private network that extends across a RBC network. It enables employees to send and receive data across shared or public networks as if their computing devices were directly connected to the RBC network.", 0.00));
-        DEFAULT_PRODUCT_LIST.add(new Product("165613", "Citrix Client", "Citrix Receiver is the easy-to-install client software that provides access to your XenDesktop and XenApp installations. With this download you can access applications, desktops and data easily and securely from any device, including smartphones, tablets, PCs and Macs.", 0.80));
-        DEFAULT_PRODUCT_LIST.add(new Product("165614", "HP Color LaserJet Ent M553x - USWM", "This is a Single Function Color network printer with a recommended monthly volume of 2,501 - 10,000 and print speed up to 40 ppm for color/black. Designed to sit on a table/desktop and features a 4.3 color touchscreen control panel.", 1200.60));
-        DEFAULT_PRODUCT_LIST.add(new Product("165954", "22 inch Monitor, One-Time Expense - USWM", "This is a wide-screen monitor with a 21.5” display.RBC supports the following models: B2240, S22C650, S22A650 or equivalent.This monitor is billed by a one-time expense", 6.00));
-        DEFAULT_PRODUCT_LIST.add(new Product("444434", "Lync (Skype)", "Provides person-to-person instant messaging, audiovideo calls and file transfer. Does NOT include DesktopApplication sharing or conferencing features.", 0.00));
-        DEFAULT_PRODUCT_LIST.add(new Product("444435", "Microsoft Project Professional 2016", "Microsoft Project can be used to assign resources, lay out plans, track phases of projects, analyze workloads, and control budgets. It is useful for managing the progress of small and large projects.Capital Markets US Firm issued mobile devices Mobile Devices are intended for employees who require mobile access to carry out company business on behalf of the Firm.", 0.00));
-        DEFAULT_PRODUCT_LIST.add(new Product("444436", "Blackberry Classic - Provided by Verizon - CM US", "Get the performance driven results of BlackBerry® 10, with the classic navigation keys and physical keyboard you know and love. It’s the smartphone phone you trust with the power you couldn’t imagine.", 456.30));
+        DEFAULT_PRODUCT_LIST.add(new Product("329299", "Premium Laptop - Developer", "Provides a large display and ", 870));
+        DEFAULT_PRODUCT_LIST.add(new Product("329199", "Create VPN Access", "A virtual private network also ", 0.00));
+        DEFAULT_PRODUCT_LIST.add(new Product("165613", "Citrix Client", "Citrix Receiver is the easy-to-install client ", 0.80));
+        DEFAULT_PRODUCT_LIST.add(new Product("165614", "HP Color LaserJet Ent M553x - USWM", "This is a Single Function ", 1200.60));
+        DEFAULT_PRODUCT_LIST.add(new Product("165954", "22 inch Monitor, One-Time Expense - USWM", "This is a wide-screen monitor with a ", 6.00));
+        DEFAULT_PRODUCT_LIST.add(new Product("444434", "Lync (Skype)", "Provides person-to-person instant messaging, audiovideo calls and", 0.00));
+        DEFAULT_PRODUCT_LIST.add(new Product("444435", "Microsoft Project Professional 2016", "Microsoft Project can be used to ", 0.00));
+        DEFAULT_PRODUCT_LIST.add(new Product("444436", "Blackberry Classic - Provided by Verizon - CM US", "Get the performance driven results of ", 456.30));
 
     }
 
