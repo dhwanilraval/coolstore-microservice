@@ -109,7 +109,7 @@ public class MongoCatalogService implements CatalogService {
 
     private static List<Product> DEFAULT_PRODUCT_LIST = new ArrayList<>();
     static {
-        DEFAULT_PRODUCT_LIST.add(new Product("329299", "Red Fedora", "Provides a large display and is physically larger than a Standard Laptop. Includes 1 power adapter. Various peripherals available at an additional cost.", 34.99));
+        DEFAULT_PRODUCT_LIST.add(new Product("329299", "Premium Laptop - Developer", "Provides a large display and is physically larger than a Standard Laptop. Includes 1 power adapter. Various peripherals available at an additional cost.", 34.99));
         DEFAULT_PRODUCT_LIST.add(new Product("329199", "Forge Laptop Sticker", "A virtual private network also known as a VPN is a private network that extends across a RBC network. It enables employees to send and receive data across shared or public networks as if their computing devices were directly connected to the RBC network.", 8.50));
         DEFAULT_PRODUCT_LIST.add(new Product("165613", "Solid Performance Polo", "Citrix Receiver is the easy-to-install client software that provides access to your XenDesktop and XenApp installations. With this download you can access applications, desktops and data easily and securely from any device, including smartphones, tablets, PCs and Macs.", 17.80));
         DEFAULT_PRODUCT_LIST.add(new Product("165614", "Ogio Caliber Polo", "This is a Single Function Color network printer with a recommended monthly volume of 2,501 - 10,000 and print speed up to 40 ppm for color/black. Designed to sit on a table/desktop and features a 4.3 color touchscreen control panel.", 28.75));
